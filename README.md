@@ -4,12 +4,13 @@ BackboneBoostrap
 Base project for an HTML5 app based on Backbone.js with Boostrap for the UI Toolkit
 
 <ol>
-  <li>Backbone.js &amp; Underscore.js</li>
-  <li>Twitter Boostrap</li>
-  <li>Font awesome for scalable glyphs</li>
-  <li>html5 shiv for Internet Explorer</li>
-  <li>jQuery 1.11.0</li>
-  <li>moment.js for time functions</li>
-  <li>require.js - for JS dependency management</li>
+    <li>jQuery (v1.11.0)</li>
+    <li>require.js (v2.1.11) - for JS dependency management</li>
+    <li>Backbone.js (v1.1.2) &amp; Underscore.js (v1.6)</li>
+    <li>RequireJS text plugin (2.0.10) for loading templates</li>
+    <li>moment.js for time functions</li>
+    <li>html5 shiv for Internet Explorer (v3.7.1)</li>
+    <li>Twitter Boostrap (v3.1.1)</li>
+    <li>Font awesome for scalable glyphs (v4.0.3)</li>
 </ol>
 

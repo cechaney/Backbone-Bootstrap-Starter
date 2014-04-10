@@ -4,12 +4,12 @@ define(
 
         var View = Backbone.View.extend({
             
-            el: '#main',
+            el: '#headline',
             
             initialize: function(){
 
                 this.model = new model({
-                    message: 'Hello World!!!'
+                    message: 'Backbone / Bootstrap Starter App'
                 });
         
                 this.template = _.template( template, {model: this.model.toJSON()});
