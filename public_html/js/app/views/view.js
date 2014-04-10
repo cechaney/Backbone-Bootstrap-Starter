@@ -1,5 +1,5 @@
 define(
-    ['jquery', 'underscore', 'backbone', 'app/models/model', 'text!app/templates/main.html'], 
+    ['jquery', 'underscore', 'backbone', 'app/models/model', 'text!app/templates/template.html'], 
     function($, _, Backbone, model, template){
 
         var View = Backbone.View.extend({
@@ -9,7 +9,7 @@ define(
             initialize: function(){
 
                 this.model = new model({
-                    message: 'Hello World'
+                    message: 'Hello World!!!'
                 });
         
                 this.template = _.template( template, {model: this.model.toJSON()});
