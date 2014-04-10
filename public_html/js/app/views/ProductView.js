@@ -1,8 +1,8 @@
-var StickerView = Backbone.View.extend({
+var ProductView = Backbone.View.extend({
 
   tagName: "li",
 
-  className: "sticker",
+  className: "product",
 
   events: {
     "click .sticker":          "open"
